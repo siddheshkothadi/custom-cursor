@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import CustomCursor from "./CustomCursor";
+import BubbleCursor from "./BubbleCursor";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <CustomCursor />
+    <BubbleCursor/>
   </React.StrictMode>
 );
